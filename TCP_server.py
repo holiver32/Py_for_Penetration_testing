@@ -7,7 +7,7 @@ host = socket.gethostbyname()
 port = 444
 
 #Binding to socket
-seversocket.bind(('192.168.56.1', port)) #Host will be replaced/substitued with IP, if changed and not running on host.
+seversocket.bind(('192.168.178.24', port)) #Host will be replaced/substitued with IP, if changed and not running on host.
 
 #Starting TCP listener
 seversocket.listen(3)
